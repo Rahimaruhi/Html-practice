@@ -1,0 +1,38 @@
+a:hover, a:active {
+	background-color: skyblue;
+}
+a:link, a:visited {
+	background-color: skyblue;
+	text-decoration-color: floralwhite;
+	padding: 20px 25px;
+	text-align-last: center;
+	display: inline-block;
+}
+table {
+	font-family: sans-serif;
+	border-style: 5px solid black;
+	width: 70%;
+	align-self: center;
+}
+td, th {
+	border: 5px solid grey;
+	text-align: left;
+	padding: 5px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#myHeader {
+background-color: bisque;
+color: black;
+padding: 20px;
+text-align: center;
+border-style: dashed;
+}
+.city, .Currency, .Religion {
+	background-color: mediumpurple;
+	color: white;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
